@@ -1,0 +1,14 @@
+site_name: SylCore Eluna API
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - API:
+      - Hooks: hooks.md
+      - Methods: methods.md
