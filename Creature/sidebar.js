@@ -19,6 +19,7 @@ document.write(`
   <a id="Creature:GetAggroRange" class="fn" href="../Creature/GetAggroRange.html">GetAggroRange</a>
   <a id="Creature:GetCorpseDelay" class="fn" href="../Creature/GetCorpseDelay.html">GetCorpseDelay</a>
   <a id="Creature:GetCreatureFamily" class="fn" href="../Creature/GetCreatureFamily.html">GetCreatureFamily</a>
+  <a id="Creature:GetCreatureSpawnId" class="fn" href="../Creature/GetCreatureSpawnId.html">GetCreatureSpawnId</a>
   <a id="Creature:GetCreatureSpellCooldownDelay" class="fn" href="../Creature/GetCreatureSpellCooldownDelay.html">GetCreatureSpellCooldownDelay</a>
   <a id="Creature:GetCurrentWaypointId" class="fn" href="../Creature/GetCurrentWaypointId.html">GetCurrentWaypointId</a>
   <a id="Creature:GetDBTableGUIDLow" class="fn" href="../Creature/GetDBTableGUIDLow.html">GetDBTableGUIDLow</a>
@@ -66,6 +67,7 @@ document.write(`
   <a id="Creature:SaveToDB" class="fn" href="../Creature/SaveToDB.html">SaveToDB</a>
   <a id="Creature:SelectVictim" class="fn" href="../Creature/SelectVictim.html">SelectVictim</a>
   <a id="Creature:SetAggroEnabled" class="fn" href="../Creature/SetAggroEnabled.html">SetAggroEnabled</a>
+  <a id="Creature:SetCorpseDelay" class="fn" href="../Creature/SetCorpseDelay.html">SetCorpseDelay</a>
   <a id="Creature:SetDeathState" class="fn" href="../Creature/SetDeathState.html">SetDeathState</a>
   <a id="Creature:SetDefaultMovementType" class="fn" href="../Creature/SetDefaultMovementType.html">SetDefaultMovementType</a>
   <a id="Creature:SetDisableGravity" class="fn" href="../Creature/SetDisableGravity.html">SetDisableGravity</a>
