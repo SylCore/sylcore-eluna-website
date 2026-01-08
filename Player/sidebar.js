@@ -72,6 +72,7 @@ document.write(`
   <a id="Player:GetItemByGUID" class="fn" href="../Player/GetItemByGUID.html">GetItemByGUID</a>
   <a id="Player:GetItemByPos" class="fn" href="../Player/GetItemByPos.html">GetItemByPos</a>
   <a id="Player:GetItemCount" class="fn" href="../Player/GetItemCount.html">GetItemCount</a>
+  <a id="Player:GetKnownTaxiNodes" class="fn" href="../Player/GetKnownTaxiNodes.html">GetKnownTaxiNodes</a>
   <a id="Player:GetLatency" class="fn" href="../Player/GetLatency.html">GetLatency</a>
   <a id="Player:GetLevelPlayedTime" class="fn" href="../Player/GetLevelPlayedTime.html">GetLevelPlayedTime</a>
   <a id="Player:GetLifetimeKills" class="fn" href="../Player/GetLifetimeKills.html">GetLifetimeKills</a>
@@ -227,6 +228,7 @@ document.write(`
   <a id="Player:SetGlyph" class="fn" href="../Player/SetGlyph.html">SetGlyph</a>
   <a id="Player:SetGuildRank" class="fn" href="../Player/SetGuildRank.html">SetGuildRank</a>
   <a id="Player:SetHonorPoints" class="fn" href="../Player/SetHonorPoints.html">SetHonorPoints</a>
+  <a id="Player:SetKnownTaxiNodes" class="fn" href="../Player/SetKnownTaxiNodes.html">SetKnownTaxiNodes</a>
   <a id="Player:SetKnownTitle" class="fn" href="../Player/SetKnownTitle.html">SetKnownTitle</a>
   <a id="Player:SetLifetimeKills" class="fn" href="../Player/SetLifetimeKills.html">SetLifetimeKills</a>
   <a id="Player:SetPlayerLock" class="fn" href="../Player/SetPlayerLock.html">SetPlayerLock</a>

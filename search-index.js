@@ -110,6 +110,7 @@ searchIndex["Achievement"] = {
         [3, "GetLootRecipientGroup", "", "Returns the <a class=\"mod\" href=\"Group/index.html\">Group</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetNPCFlags", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s NPC flags."],
         [3, "GetRank", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s rank."],
+        [3, "GetReactState", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s current ReactState."],
         [3, "GetRespawnDelay", "", "Returns the time it takes for this <a class=\"mod\" href=\"Creature/index.html\">Creature</a> to respawn once killed."],
         [3, "GetScriptId", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s script ID."],
         [3, "GetScriptName", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s script name."],
@@ -463,6 +464,8 @@ searchIndex["Achievement"] = {
         [3, "SetCount", "", "Sets the stack count of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
         [3, "SetEnchantment", "", "Sets the specified enchantment of the <a class=\"mod\" href=\"Item/index.html\">Item</a> to the specified slot"],
         [3, "SetOwner", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a> specified as the owner of the <a class=\"mod\" href=\"Item/index.html\">Item</a>"],
+        [3, "SetRandomProperty", "", "Sets the random properties for the <a class=\"mod\" href=\"Item/index.html\">Item</a> from a given random property ID."],
+        [3, "SetRandomSuffix", "", "Sets the random suffix for the <a class=\"mod\" href=\"Item/index.html\">Item</a> from a given random suffix ID."],
     ],
     "paths": []
 };searchIndex["ItemTemplate"] = {
@@ -623,6 +626,7 @@ searchIndex["Achievement"] = {
         [3, "GetItemByGUID", "", "Returns an <a class=\"mod\" href=\"Item/index.html\">Item</a> from the player by guid."],
         [3, "GetItemByPos", "", "Returns an item in given bag on given slot."],
         [3, "GetItemCount", "", "Returns amount of the specified <a class=\"mod\" href=\"Item/index.html\">Item</a> the <a class=\"mod\" href=\"Player/index.html\">Player</a> has."],
+        [3, "GetKnownTaxiNodes", "", "Returns known taxi nodes (flight paths) that the player has unlocked."],
         [3, "GetLatency", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current latency in MS"],
         [3, "GetLevelPlayedTime", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s time played at current level"],
         [3, "GetLifetimeKills", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s lifetime Honorable Kills"],
@@ -778,6 +782,7 @@ searchIndex["Achievement"] = {
         [3, "SetGlyph", "", "Adds a glyph specified by <code>glyphId</code> to the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s current talent specialization into the slot with the index <code>slotIndex</code>"],
         [3, "SetGuildRank", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s guild rank to the rank specified"],
         [3, "SetHonorPoints", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s Honor Points to the amount specified"],
+        [3, "SetKnownTaxiNodes", "", "Sets the player's known taxi nodes (flight paths)."],
         [3, "SetKnownTitle", "", "Adds the specified title to the <a class=\"mod\" href=\"Player/index.html\">Player</a>s list of known titles"],
         [3, "SetLifetimeKills", "", "Sets the <a class=\"mod\" href=\"Player/index.html\">Player</a>s amount of Lifetime Honorable Kills to the value specified"],
         [3, "SetPlayerLock", "", "Locks the player controls and disallows all movement and casting."],
