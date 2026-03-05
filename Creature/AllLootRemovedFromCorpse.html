@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Creature:GetLoot method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Creature:AllLootRemovedFromCorpse method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>Creature:GetLoot - Eluna</title>
+    <title>Creature:AllLootRemovedFromCorpse - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -30,7 +30,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Creature:GetLoot");
+      var element = document.getElementById("Creature:AllLootRemovedFromCorpse");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Creature/index.html">Creature</a>:<a class="fn" href="../Creature/GetLoot.html">GetLoot</a>
+    <a class="mod" href="../Creature/index.html">Creature</a>:<a class="fn" href="../Creature/AllLootRemovedFromCorpse.html">AllLootRemovedFromCorpse</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Returns the <a class="mod" href="../Creature/index.html">Creature</a>'s loot.</p>
+        <p>Handles this <a class="mod" href="../Creature/index.html">Creature</a>´s corpse state after all loot has been removed from it.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>loot = Creature:GetLoot()</code>
+            <code>Creature:AllLootRemovedFromCorpse()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -88,10 +88,7 @@
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            <dl>
-                <dt><code><strong><a class="mod" href="../Loot/index.html">Loot</a></strong> loot</code></dt>
-                <dd class="docblock"><p>The loot object. </p></dd>
-            </dl>
+            Nothing.
         </p>
     </div>
 

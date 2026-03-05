@@ -79,7 +79,7 @@ searchIndex["Achievement"] = {
     "items": [
         [0, "", "Creature", "Non-<a class=\"mod\" href=\"Player/index.html\">Player</a> controlled <a class=\"mod\" href=\"Unit/index.html\">Unit</a>s (i.e. NPCs)."],
         [3, "AddLootMode", "", "Adds a loot mode to the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>"],
-        [3, "AllLootRemoved", "", ""],
+        [3, "AllLootRemovedFromCorpse", "", "Handles this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>´s corpse state after all loot has been removed from it."],
         [3, "AttackStart", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> attack <code>target</code>."],
         [3, "CallAssistance", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> call for assistance in combat from other nearby <a class=\"mod\" href=\"Creature/index.html\">Creature</a>s."],
         [3, "CallForHelp", "", "Make the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> call for help in combat from friendly <a class=\"mod\" href=\"Creature/index.html\">Creature</a>s within <code>radius</code>."],
@@ -106,7 +106,7 @@ searchIndex["Achievement"] = {
         [3, "GetDefaultMovementType", "", "Returns the default movement type for this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetExtraFlags", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s Extra flags."],
         [3, "GetHomePosition", "", "Returns position the <a class=\"mod\" href=\"Creature/index.html\">Creature</a> returns to when evading from combat   or respawning."],
-        [3, "GetLoot", "", ""],
+        [3, "GetLoot", "", "Returns the <a class=\"mod\" href=\"Creature/index.html\">Creature</a>'s loot."],
         [3, "GetLootMode", "", ""],
         [3, "GetLootRecipient", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
         [3, "GetLootRecipientGroup", "", "Returns the <a class=\"mod\" href=\"Group/index.html\">Group</a> that can loot this <a class=\"mod\" href=\"Creature/index.html\">Creature</a>."],
