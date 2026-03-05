@@ -1,5 +1,6 @@
 document.write(`
   <a id="Creature:AddLootMode" class="fn" href="../Creature/AddLootMode.html">AddLootMode</a>
+  <a id="Creature:AllLootRemoved" class="fn" href="../Creature/AllLootRemoved.html">AllLootRemoved</a>
   <a id="Creature:AttackStart" class="fn" href="../Creature/AttackStart.html">AttackStart</a>
   <a id="Creature:CallAssistance" class="fn" href="../Creature/CallAssistance.html">CallAssistance</a>
   <a id="Creature:CallForHelp" class="fn" href="../Creature/CallForHelp.html">CallForHelp</a>
@@ -26,6 +27,7 @@ document.write(`
   <a id="Creature:GetDefaultMovementType" class="fn" href="../Creature/GetDefaultMovementType.html">GetDefaultMovementType</a>
   <a id="Creature:GetExtraFlags" class="fn" href="../Creature/GetExtraFlags.html">GetExtraFlags</a>
   <a id="Creature:GetHomePosition" class="fn" href="../Creature/GetHomePosition.html">GetHomePosition</a>
+  <a id="Creature:GetLoot" class="fn" href="../Creature/GetLoot.html">GetLoot</a>
   <a id="Creature:GetLootMode" class="fn" href="../Creature/GetLootMode.html">GetLootMode</a>
   <a id="Creature:GetLootRecipient" class="fn" href="../Creature/GetLootRecipient.html">GetLootRecipient</a>
   <a id="Creature:GetLootRecipientGroup" class="fn" href="../Creature/GetLootRecipientGroup.html">GetLootRecipientGroup</a>
