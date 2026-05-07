@@ -197,7 +197,7 @@ searchIndex["Achievement"] = {
 };searchIndex["GameObject"] = {
     "items": [
         [0, "", "GameObject", "Inherits all methods from: <a class=\"mod\" href=\"Object/index.html\">Object</a>, <a class=\"mod\" href=\"WorldObject/index.html\">WorldObject</a>"],
-        [3, "AddLoot", "", "Adds an <a class=\"mod\" href=\"Item/index.html\">Item</a> to the loot of a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> Requires an gameobject with loot_template set to 0."],
+        [3, "AddLoot", "", ""],
         [3, "Despawn", "", "Despawns a <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
         [3, "GetDBTableGUIDLow", "", "Returns the guid of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a> that is used as the ID in the database"],
         [3, "GetDisplayId", "", "Returns display ID of the <a class=\"mod\" href=\"GameObject/index.html\">GameObject</a>"],
@@ -682,6 +682,7 @@ searchIndex["Achievement"] = {
         [3, "GetAchievementPoints", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current amount of Achievement Points"],
         [3, "GetActiveSpec", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s active spec ID"],
         [3, "GetArenaPoints", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current amount of Arena Points"],
+        [3, "GetBankFreeSlots", "", "Returns the number of free slots in the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s bank (main bank and bank bags)."],
         [3, "GetBaseSkillValue", "", "Returns base skill value"],
         [3, "GetBattlegroundId", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a> ID"],
         [3, "GetBattlegroundTypeId", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current <a class=\"mod\" href=\"BattleGround/index.html\">BattleGround</a> type ID"],
@@ -713,6 +714,7 @@ searchIndex["Achievement"] = {
         [3, "GetHomebind", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a> homebind location."],
         [3, "GetHonorPoints", "", "Returns the <a class=\"mod\" href=\"Player/index.html\">Player</a>s current amount of Honor Points"],
         [3, "GetInGameTime", "", "Returns the amount of time the <a class=\"mod\" href=\"Player/index.html\">Player</a> has spent ingame"],
+        [3, "GetInventoryFreeSlots", "", "Returns the number of free slots in the <a class=\"mod\" href=\"Player/index.html\">Player</a>'s inventory (backpack and equipped bags)."],
         [3, "GetItemByEntry", "", "Returns an <a class=\"mod\" href=\"Item/index.html\">Item</a> from the player by entry."],
         [3, "GetItemByGUID", "", "Returns an <a class=\"mod\" href=\"Item/index.html\">Item</a> from the player by guid."],
         [3, "GetItemByPos", "", "Returns an item in given bag on given slot."],

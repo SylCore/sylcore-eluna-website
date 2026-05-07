@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the GameObject:AddLoot method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Player:GetBankFreeSlots method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>GameObject:AddLoot - Eluna</title>
+    <title>Player:GetBankFreeSlots - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -26,11 +26,11 @@
     <a href='../index.html'><img src='../static/eluna-logo.png' alt='Eluna Logo' width='100'></a>
     <div class="block">
         
-    <h2>GameObject Methods</h2>
+    <h2>Player Methods</h2>
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("GameObject:AddLoot");
+      var element = document.getElementById("Player:GetBankFreeSlots");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../GameObject/index.html">GameObject</a>:<a class="fn" href="../GameObject/AddLoot.html">AddLoot</a>
+    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/GetBankFreeSlots.html">GetBankFreeSlots</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,28 +68,30 @@
 
     
     <div class='docblock'>
-        <p>This method is <em>undocumented</em>. <strong>Use at your own risk.</strong></p>
-        <p>For temporary documentation, please check the <a href="https://github.com/ElunaLuaEngine/Eluna/blob/master/LuaFunctions.cpp">LuaFunctions</a> source file.</p>
+        <p>Returns the number of free slots in the <a class="mod" href="../Player/index.html">Player</a>'s bank (main bank and bank bags).</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>GameObject:AddLoot()</code>
+            <code>freeSlots = Player:GetBankFreeSlots()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
             <a href="#arguments">Arguments</a>
         </h2>
         <p>
-            Unknown.
+            None.
         </p>
 
         <h2 id="returns" class='section-header'>
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            Unknown.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> freeSlots</code></dt>
+                <dd class="docblock"><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+            </dl>
         </p>
     </div>
 
