@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Player:ResetPetTalents method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Player:IsPetNeedBeTemporaryUnsummoned method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>Player:ResetPetTalents - Eluna</title>
+    <title>Player:IsPetNeedBeTemporaryUnsummoned - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -30,7 +30,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Player:ResetPetTalents");
+      var element = document.getElementById("Player:IsPetNeedBeTemporaryUnsummoned");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/ResetPetTalents.html">ResetPetTalents</a>
+    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/IsPetNeedBeTemporaryUnsummoned.html">IsPetNeedBeTemporaryUnsummoned</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,13 +68,13 @@
 
     
     <div class='docblock'>
-        <p>Resets the <a class="mod" href="../Player/index.html">Player</a>'s pet talents.</p>
+        <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> needs to temporarily unsummon their <a class="mod" href="../Pet/index.html">Pet</a>, and <code>false</code> otherwise.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Player:ResetPetTalents()</code>
+            <code>isPetNeedBeTemporaryUnsummoned = Player:IsPetNeedBeTemporaryUnsummoned()</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
@@ -88,7 +88,10 @@
             <a href="#returns">Returns</a>
         </h2>
         <p>
-            Nothing.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.2.html">boolean</a></strong> isPetNeedBeTemporaryUnsummoned</code></dt>
+                <dd class="docblock"><p><code>true</code> if the pet needs to be temporarily unsummoned, <code>false</code> otherwise. </p></dd>
+            </dl>
         </p>
     </div>
 

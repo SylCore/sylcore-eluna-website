@@ -196,10 +196,37 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CanPetResurrect.html'>CanPetResurrect</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> can resurrect their <a class="mod" href="../Pet/index.html">Pet</a> and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CanResummonPet.html'>CanResummonPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> can resummon a <a class="mod" href="../Pet/index.html">Pet</a> with the specified spell ID, and <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='CanRewardQuest.html'>CanRewardQuest</a>
             </td>
             <td class='docblock short'>
                 <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> satisfies all requirements to reward the quest entry.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CanSeeDKPet.html'>CanSeeDKPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> can see Death Knight <a class="mod" href="../Pet/index.html">Pet</a>s, and <code>false</code> otherwise.</p>
             </td>
         </tr>
         <tr>
@@ -218,6 +245,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> can currently communicate through chat, <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CanTameExoticPets.html'>CanTameExoticPets</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> can tame exotic pets, and <code>false</code> otherwise.</p>
             </td>
         </tr>
         <tr>
@@ -263,6 +299,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Completes the given quest entry for the <a class="mod" href="../Player/index.html">Player</a> and tries to satisfy all quest requirements.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CreatePet.html'>CreatePet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Creates a tamed <a class="mod" href="../Pet/index.html">Pet</a> from a <a class="mod" href="../Creature/index.html">Creature</a> or creature entry.</p>
             </td>
         </tr>
         <tr>
@@ -745,6 +790,24 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetLastPetNumber.html'>GetLastPetNumber</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the last pet number for the <a class="mod" href="../Player/index.html">Player</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetLastPetSpell.html'>GetLastPetSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the spell ID of the <a class="mod" href="../Player/index.html">Player</a>'s last <a class="mod" href="../Pet/index.html">Pet</a> summoning spell.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='GetLatency.html'>GetLatency</a>
             </td>
             <td class='docblock short'>
@@ -830,6 +893,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Returns <a class="mod" href="../Player/index.html">Player</a>s original sub group</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetPet.html'>GetPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Player/index.html">Player</a>'s current <a class="mod" href="../Pet/index.html">Pet</a>, if any.</p>
             </td>
         </tr>
         <tr>
@@ -1028,6 +1100,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Returns the <a class="mod" href="../Player/index.html">Player</a>s [TeamId]</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetTemporaryUnsummonedPetNumber.html'>GetTemporaryUnsummonedPetNumber</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the temporary unsummoned pet number for the <a class="mod" href="../Player/index.html">Player</a>.</p>
             </td>
         </tr>
         <tr>
@@ -1366,6 +1447,15 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsExistPet.html'>IsExistPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> has a <a class="mod" href="../Pet/index.html">Pet</a> (active or stored) and returns <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='IsFalling.html'>IsFalling</a>
             </td>
             <td class='docblock short'>
@@ -1501,10 +1591,28 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsMaxLevel.html'>IsMaxLevel</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> is at maximum level, <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='IsMoving.html'>IsMoving</a>
             </td>
             <td class='docblock short'>
                 <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> is currently moving, <code>false</code> otherwise.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsPetNeedBeTemporaryUnsummoned.html'>IsPetNeedBeTemporaryUnsummoned</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <code>true</code> if the <a class="mod" href="../Player/index.html">Player</a> needs to temporarily unsummon their <a class="mod" href="../Pet/index.html">Pet</a>, and <code>false</code> otherwise.</p>
             </td>
         </tr>
         <tr>
@@ -1559,6 +1667,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Gives <a class="mod" href="../Quest/index.html">Quest</a> monster killed credit</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='LearnPetTalent.html'>LearnPetTalent</a>
+            </td>
+            <td class='docblock short'>
+                <p>Learns a pet talent for the specified <a class="mod" href="../Pet/index.html">Pet</a> of the <a class="mod" href="../Player/index.html">Player</a>.</p>
             </td>
         </tr>
         <tr>
@@ -1690,6 +1807,15 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='RemovePet.html'>RemovePet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes the specified <a class="mod" href="../Pet/index.html">Pet</a> from the <a class="mod" href="../Player/index.html">Player</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='RemoveQuest.html'>RemoveQuest</a>
             </td>
             <td class='docblock short'>
@@ -1738,7 +1864,7 @@ These kills are honorable kills, not PVE kills.</p>
                 <a class='fn' href='ResetPetTalents.html'>ResetPetTalents</a>
             </td>
             <td class='docblock short'>
-                <p>Resets the <a class="mod" href="../Player/index.html">Player</a>s pets talent points</p>
+                <p>Resets the <a class="mod" href="../Player/index.html">Player</a>'s pet talents.</p>
             </td>
         </tr>
         <tr>
@@ -1775,6 +1901,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Resets cooldown of the specified category</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ResummonPetTemporaryUnSummonedIfAny.html'>ResummonPetTemporaryUnSummonedIfAny</a>
+            </td>
+            <td class='docblock short'>
+                <p>Resummons the <a class="mod" href="../Player/index.html">Player</a>'s pet if it was temporarily unsummoned.</p>
             </td>
         </tr>
         <tr>
@@ -2158,6 +2293,24 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetLastPetNumber.html'>SetLastPetNumber</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the last pet number for the <a class="mod" href="../Player/index.html">Player</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetLastPetSpell.html'>SetLastPetSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the spell ID of the <a class="mod" href="../Player/index.html">Player</a>'s last <a class="mod" href="../Pet/index.html">Pet</a> summoning spell.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='SetLifetimeKills.html'>SetLifetimeKills</a>
             </td>
             <td class='docblock short'>
@@ -2221,6 +2374,15 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetShowDKPet.html'>SetShowDKPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets whether the <a class="mod" href="../Player/index.html">Player</a> can see Death  Knight <a class="mod" href="../Pet/index.html">Pet</a>s.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='SetSkill.html'>SetSkill</a>
             </td>
             <td class='docblock short'>
@@ -2248,6 +2410,15 @@ These kills are honorable kills, not PVE kills.</p>
         <tr>
             <td>
                 <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetTemporaryUnsummonedPetNumber.html'>SetTemporaryUnsummonedPetNumber</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the temporary unsummoned pet number for the <a class="mod" href="../Player/index.html">Player</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
                 <a class='fn' href='SpawnBones.html'>SpawnBones</a>
             </td>
             <td class='docblock short'>
@@ -2261,6 +2432,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Attempts to start the taxi/flying to the given pathID</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SummonPet.html'>SummonPet</a>
+            </td>
+            <td class='docblock short'>
+                <p>Summons a <a class="mod" href="../Pet/index.html">Pet</a> at the specified location.</p>
             </td>
         </tr>
         <tr>
@@ -2351,6 +2531,15 @@ These kills are honorable kills, not PVE kills.</p>
             </td>
             <td class='docblock short'>
                 <p>Removes a title by ID from the <a class="mod" href="../Player/index.html">Player</a>s list of known titles</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='UnsummonPetTemporarily.html'>UnsummonPetTemporarily</a>
+            </td>
+            <td class='docblock short'>
+                <p>Temporarily unsummons the <a class="mod" href="../Player/index.html">Player</a>'s current <a class="mod" href="../Pet/index.html">Pet</a>.</p>
             </td>
         </tr>
         <tr>

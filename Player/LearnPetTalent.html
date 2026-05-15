@@ -3,10 +3,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="API documentation for the Player:ResetPetTalents method in the Eluna engine.">
+    <meta name="description" content="API documentation for the Player:LearnPetTalent method in the Eluna engine.">
     <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
 
-    <title>Player:ResetPetTalents - Eluna</title>
+    <title>Player:LearnPetTalent - Eluna</title>
 
     <link rel="stylesheet" type="text/css" href="../static/main.css">
     <link rel="stylesheet" type="text/css" href="../static/dark.css">
@@ -30,7 +30,7 @@
     <script src="sidebar.js"></script>
     <script>
       // Highlight current method by adding "current" class to it
-      var element = document.getElementById("Player:ResetPetTalents");
+      var element = document.getElementById("Player:LearnPetTalent");
       if (element) {
         var classname = "current";
         arr = element.className.split(" ");
@@ -57,7 +57,7 @@
 <section id='main' class="content mod">
     <h1 class='fqn'>
         Method
-    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/ResetPetTalents.html">ResetPetTalents</a>
+    <a class="mod" href="../Player/index.html">Player</a>:<a class="fn" href="../Player/LearnPetTalent.html">LearnPetTalent</a>
         <span class='out-of-band'>
             <span id='render-detail'>
                 <a id="collapse-all" href="#">[-]</a>
@@ -68,20 +68,31 @@
 
     
     <div class='docblock'>
-        <p>Resets the <a class="mod" href="../Player/index.html">Player</a>'s pet talents.</p>
+        <p>Learns a pet talent for the specified <a class="mod" href="../Pet/index.html">Pet</a> of the <a class="mod" href="../Player/index.html">Player</a>.</p>
 
         <h2 id="synopsis" class='section-header'>
             <a href="#synopsis">Synopsis</a>
         </h2>
         <p>
-            <code>Player:ResetPetTalents()</code>
+            <code>Player:LearnPetTalent( petGuid, talentId, talentRank )</code>
         </p>
 
         <h2 id="arguments" class='section-header'>
             <a href="#arguments">Arguments</a>
         </h2>
         <p>
-            None.
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> petGuid</code></dt>
+                <dd class="docblock"><p>GUID of the pet to learn the talent for. </p><p><em>Valid numbers</em>: integers from 0 to 18,446,744,073,709,551,615.</p></dd>
+            </dl>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> talentId</code></dt>
+                <dd class="docblock"><p>ID of the talent to learn. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+            </dl>
+            <dl>
+                <dt><code><strong><a href="http://www.lua.org/pil/2.3.html">number</a></strong> talentRank</code></dt>
+                <dd class="docblock"><p>Rank of the talent to learn. </p><p><em>Valid numbers</em>: integers from 0 to 4,294,967,295.</p></dd>
+            </dl>
         </p>
 
         <h2 id="returns" class='section-header'>
